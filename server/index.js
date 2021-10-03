@@ -15,8 +15,6 @@ app.get("/", (req, res) => {
 });
 app.use("/posts", postRoutes);
 app.use("/user", userRoutes);
-/* const CONNECT_URL =
-  "mongodb+srv://Henry2601:43653661@cluster0.eaztt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"; */
 
 const PORT = process.env.PORT || 5000;
 
